@@ -1,11 +1,129 @@
-Instragram.com/heyy.asfakk
-- 👋 Hi, I’m @ASFAKSAMA
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<!DOCTYPE html>
+<html lang="en">
 
-<!---
-ASFAKSAMA/ASFAKSAMA is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="ASFAK's Portfolio | One of the first web development projects by Aditya.">
+          <meta itemprop="name" content="ASFAK's Portfolio">
+          <meta itemprop="description" content="ASFAK's Portfolio | One of the first web development projects by Aditya.">
+          <meta itemprop="image" content="https://graph.org/file/7ede4ec5b750d8585155b.jpg">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="src/style.css">
+          <title>Asfak (@heyy.asfakk)</title>
+          <link rel="icon" href="https://vectorified.com/images/attack-on-titan-icon-31.png" type="image/x-icon">
+          <meta content="Asfak's Portfolio" property="og:site_name">
+          <meta property="og:type" content="website">
+          <meta content="https://aaditya.github.io/" property="og:url">
+          <meta content="Asfak (@heyy.asfakk)" property="og:title">
+          <meta content="https://graph.org/file/d689c5b6a14de90023dd0.jpg" property="og:image">
+          <meta content="asfak's Portfolio | One of the first web development projects by Shubhhh." property="og:description">
+     </head>
+
+<body id="body" class="dark" oncontextmenu="return false">
+     <div class="loader" id="loader">
+          <h1 data-value="YOU ARE HACKED" id="loader-text">Don't Click me</h1>
+     </div>
+     <div id="particles-js"></div>
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+     <div class="wrapper">
+          <div class="toggle">
+               <input class="toggle-input" type="checkbox" />
+               <div class="toggle-bg"></div>
+               <div class="toggle-switch">
+                    <div class="toggle-switch-figure"></div>
+                    <div class="toggle-switch-figureAlt"></div>
+               </div>
+          </div>
+     </div>
+
+     <div class="modal">
+          <img src="https://graph.org/file/7ede4ec5b750d8585155b.jpg" alt="">
+          <div class="close"></div>
+     </div>
+
+     <div id="container" class="container">
+          <input type="checkbox" name="" id="check">
+          <div class="card">
+               <div class="sidebar" id="sidebar">
+                    <a class="active" href="https://github.com/ASFAKSAMA" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a class="active" href="https://telegram.dog/asfak_sama>Telegram</a>
+                    <a class="active" href="https://instagram.com/heyy.asfakk">Instagram</a>
+               </div>
+               <div class="header" onclick="toggle()">
+                    <label for="check" class="checkbtn" id="chkbtn">
+                         <div class="hamburger-menu">
+                              <div class="center"></div>
+                         </div>
+                    </label>
+                    <a href="mailto: samaasfak347@gmail.com" class="mail">
+                         <i class="far fa-envelope"></i>
+                    </a>
+                    <div class="main">
+                         <div class="image">
+                              <div class="hover">
+                                   <i class="fas fa-camera fa-2x"></i>
+                              </div>
+                         </div>
+                         <h3 class="name">ASFAK</h3>
+                         <h3 class="sub-name">@heyy.asfakk</h3>
+                    </div>
+               </div>
+
+               <div class="content">
+                    <div class="left">
+                         <div class="about-container">
+                              <h3 class="title">About</h3>
+                              <p class="text">~ Telegram Bot Developer~</p>
+                              <p class="text">• Python | Telethon | Pyrogram •</p>
+                         </div>
+                         <div class="icons-container">
+                              <a href="https://github.com/ASFAKSAMA" class="icon">
+                                   <i class="fab fa-github"></i>
+                              </a>
+                              <a href="https://telegram.dog/asfak_sama" class="icon">
+                                   <i class="fab fa-telegram"></i>
+                              </a>
+                              <a href="https://instagram.com/heyy.asfakk" class="icon">
+                                   <i class="fab fa-instagram"></i>
+                              </a>
+                         </div>
+                         <div class="buttons-wrap">
+                              <div class="follow-wrap">
+                                   <a href="https://instagram.com/heyy.asfakk" class="follow">Follow</a>
+                              </div>
+                              <div class="share-wrap">
+                                   <a href="https://github.com/ASFAKSAMA" class="share">More</a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     </div>
+     
+     <script>
+          document.onkeydown = function (e) {
+               if (event.keyCode == 123) {
+                    return false;
+               }
+               if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                    return false;
+               }
+               if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                    return false;
+               }
+               if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                    return false;
+               }
+               if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                    return false;
+               }
+          }
+     </script>
+     <script src="src/app.js"></script>
+     <script src="/src/contact-form.js" id="contactform" error_text="" success_text="" disable_waittime="true" form_worker_url="https://contactform.cfform.workers.dev/"></script>
+</body>
+</html>
